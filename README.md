@@ -1,12 +1,12 @@
 ---
 
-# 🚜 Benchmark VRP Agricole
+# Benchmark VRP Agricole
 
 ## Problème de Tournées de Véhicules pour Essaims de Robots en Agriculture : Comparaison K-means + GA vs K-means + LNS
 
 ---
 
-## 📌 Description
+## Description
 
 Ce projet implémente un **benchmark expérimental complet** comparant deux approches hybrides pour résoudre un **Vehicle Routing Problem (VRP) multi-robots** appliqué à l’agriculture de précision.
 
@@ -19,7 +19,7 @@ Les deux approches comparées sont :
 
 ---
 
-## 🎯 Objectif
+## Objectif
 
 Optimiser la planification de trajectoires d’une flotte de robots agricoles afin de :
 
@@ -30,7 +30,7 @@ Optimiser la planification de trajectoires d’une flotte de robots agricoles af
 
 ---
 
-## 🏗 Méthodologie
+## Méthodologie
 
 Le solveur VRP fonctionne en **deux phases** :
 
@@ -179,13 +179,12 @@ Le programme :
 
 ## Complexité
 
-* VRP : NP-difficile
-* GA : ( O(N_{pop} \cdot N_{gen} \cdot n_k) )
-* LNS : ( O(L \cdot n_k^2) )
+* **VRP** : NP-difficile
+* **GA** : $O(N_{pop} \cdot N_{gen} \cdot n_k)$
+* **LNS** : $O(L \cdot n_k^2)$
 
-avec ( n_k ≈ n/m )
+avec $n_k \approx n/m$
 
----
 
 ##  Contributions
 
